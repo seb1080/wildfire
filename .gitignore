@@ -9,4 +9,10 @@ Icon
 # Thumbnails
 ._*
 
+# Data folder
 /dataSource
+/rawData
+
+# Qgis files
+/Qgis
+*.qgz
