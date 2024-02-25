@@ -1,18 +1,16 @@
-# General
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Icon must end with two \r
-Icon
-
 # Thumbnails
 ._*
 
-# Data folder
-/dataSource
-/rawData
-
-# Qgis files
-/Qgis
+# Data science
+dataScience/outputData
+dataScience/Qgis
+dataScience/rawData/**/*
 *.qgz
+*.gpkg
+
+# webapp
+wildfire-risk-intelligence-webapp/node_modules
