@@ -2,6 +2,18 @@
 
 The goal of this projet is create a proof of concept for a Wildfire Risk Intelligence Webapp.
 
+## Project Example
+
+- <https://github.com/Ismaestro/angular-example-app/tree/master>
+- <https://github.com/bezkoder/angular-17-crud-example>
+
+## CSS Librairies
+
+- <https://clarity.design/pages/developing>
+- <https://material.angular.io/components/categories>
+- <https://primeng.org/#/>
+- <https://akveo.github.io/nebular/docs/components/components-overview>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
