@@ -6,6 +6,13 @@ The goal of this projet is create a proof of concept for a Wildfire Risk Intelli
 
 - <https://github.com/Ismaestro/angular-example-app/tree/master>
 - <https://github.com/bezkoder/angular-17-crud-example>
+- [Configs file](https://plainenglish.io/blog/setup-dotenv-to-access-environment-variables-in-angular-9-f06c6ffb86c0#the-process)
+
+## MapLibre GL js
+
+- <https://maplibre.org/maplibre-gl-js/docs/API/>
+- <https://www.geoapify.com/tutorial/angular-leaflet-mapbox-maplibre-openlayers>
+- <https://github.com/maplibre/ngx-maplibre-gl>
 
 ## CSS Librairies
 

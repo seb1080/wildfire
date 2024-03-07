@@ -52,3 +52,6 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+
+# Environments
+.env
