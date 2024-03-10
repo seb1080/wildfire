@@ -55,3 +55,4 @@ testem.log
 
 # Environments
 .env
+**.local.ts

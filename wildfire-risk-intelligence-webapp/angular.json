@@ -26,6 +26,14 @@
             "scripts": []
           },
           "configurations": {
+            "local": {
+              "fileReplacements": [
+                {
+                  "replace": "src/app/environments/environment.ts",
+                  "with": "src/app/environments/environment.local.ts"
+                }
+              ]
+            },
             "production": {
               "budgets": [
                 {
@@ -52,14 +60,17 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "production": {
-              "buildTarget": "wildfire-risk-intelligence:build:production"
+            "local": {
+              "buildTarget": "wildfire-risk-intelligence:build:local"
             },
             "development": {
               "buildTarget": "wildfire-risk-intelligence:build:development"
+            },
+            "production": {
+              "buildTarget": "wildfire-risk-intelligence:build:production"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "local"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",

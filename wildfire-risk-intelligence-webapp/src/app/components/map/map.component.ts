@@ -10,7 +10,6 @@ import { constants } from '../../environments/constants';
 import { environment } from '../../environments/environment';
 
 const { mapStyle, mapOptions: initialState } = constants.mapLibre;
-const geoApiKey = process.env['GEO_API_KEY'];
 
 @Component({
   selector: 'map-component',
@@ -30,7 +29,7 @@ export class MapComponent implements OnInit, AfterViewInit {
   ngAfterViewInit() {
     const map = new Map({
       container: this.mapContainer.nativeElement,
-      style: `${mapStyle}?apiKey=${geoApiKey}`,
+      style: `${mapStyle}?apiKey=${environment.geoApiKey}`,
       center: [initialState.lng, initialState.lat],
       zoom: initialState.zoom,
     });
