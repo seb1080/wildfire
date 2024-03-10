@@ -8,6 +8,4 @@ import { MapComponent } from './components/map/map.component';
   imports: [RouterOutlet, MapComponent],
   templateUrl: './app.component.html',
 })
-export class AppComponent {
-  title = 'wildfire-risk-intelligence';
-}
+export class AppComponent {}
