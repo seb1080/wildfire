@@ -10,7 +10,7 @@ import { constants } from '../../environments/constants';
 import { environment } from '../../environments/environment';
 
 const { mapStyle, mapOptions: initialState } = constants.mapLibre;
-const { geoApiKey } = environment;
+const geoApiKey = process.env['GEO_API_KEY'];
 
 @Component({
   selector: 'map-component',
